@@ -6,9 +6,9 @@
 
 ## JavaScript
 
-[入门](1)
+- [入门](https://note.cattom.site/JavaScript Learning.pdf)
 
 ## 小尝试
 
-- [抽签]()
+- [抽签](https://note.cattom.site/code/draw-lots/)
 
