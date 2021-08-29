@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抽签时间到~</title>
+    <style>
+        .text {
+            text-align: center;
+        }
+
+        p {
+            display: inline-block;
+            font-size: 50px;
+            margin: 0 auto
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>抽签时间到</h1>
+    <div class="text">
+        <p id="draw-lots"></p>
+        <button onclick="code()">点击抽签~</button>
+    </div>
+</body>
+<script>
+    function code() {
+        var random = Math.random() * (56 - 1) + 1;
+        var num = Math.floor(random);
+        document.getElementById("draw-lots").innerHTML = num + '号';
+    }
+</script>
+
+</html>

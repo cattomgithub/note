@@ -1,5 +1,14 @@
-# Note
+# Cat Tom's Note
 
-学习笔记。
+> 👋 Hi !
+>
+> 欢迎来到 Cat Tom 的笔记本。
 
-[Link](https://note.cattom.site)
+## JavaScript
+
+[入门](1)
+
+## 小尝试
+
+- [抽签]()
+
